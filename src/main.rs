@@ -60,6 +60,11 @@ fn main() {
 
 
 
+    {/*FUNCTION WHICH TRAVERSE THE CHAR OF STRING  */}
+
+    // let sentance :String  =  String::from("hello my name is prabal");
+    // println!("Here is the Answer : { }" , get_char_value(sentance))
+   
 
 
 
@@ -72,5 +77,28 @@ fn main() {
 
 
 
-    
+
+
+
 }
+
+
+    /* 
+    
+    fn get_char_value(sentence : String)->String{
+let mut First_name :String = String::from("");
+
+for c in sentence.chars(){
+    if c == ' ' {
+        break
+    }
+    
+        First_name.push(c);
+}
+    return First_name;
+
+}
+  
+    
+     */
+
